@@ -1,0 +1,25 @@
+package recapDemo1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int sayi1 = 20;
+		int sayi2 = 25;
+		int sayi3 = 30;
+		
+		if (sayi1>sayi2) {
+			if (sayi1>sayi3) {
+				System.out.println("1. en büyük");
+			}
+		}else if (sayi2>sayi1) {
+			if (sayi2>sayi3) {
+				System.out.println("2. en büyük");
+			}
+			
+		} else {
+			System.out.println("3. en büyük");
+		}
+
+	}
+
+}

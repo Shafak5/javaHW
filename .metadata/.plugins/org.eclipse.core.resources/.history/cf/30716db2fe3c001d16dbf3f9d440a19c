@@ -1,0 +1,26 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 5;
+		int tamBolen = 0;
+		int toplam = 0;
+		
+		for(tamBolen = 0; tamBolen<number; tamBolen ++ ) {
+			if(number % tamBolen == 0) {
+				tamBolen = toplam + tamBolen;
+			}
+		}
+		if(toplam == number) {
+			System.out.println("mukemmel sayıdır");
+			
+		}else {
+			System.out.println("mukemmel sayı değil");
+		}
+		
+		
+
+	}
+
+}
