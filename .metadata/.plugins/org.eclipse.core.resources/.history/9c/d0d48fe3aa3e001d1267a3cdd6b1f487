@@ -1,0 +1,30 @@
+package methods2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String message = "Bugün hava güzel";
+		String newMessage = message.substring(0, 2);
+		String newMessage2= newMessage.toUpperCase();
+		System.out.println(newMessage2);
+		int sayi = sum(5,7);
+		System.out.println(sayi);
+
+	}
+
+	public static void add() {
+		System.out.println("added");
+	}
+
+	public static void delete() {
+		System.out.println("deleted");
+	}
+
+	public static void update() {
+		System.out.println("updated");
+	}
+
+	public static int sum(int sayi1, int sayi2) {
+		return sayi1 + sayi2;
+	}
+}
